@@ -24,6 +24,7 @@
             }
         }
 
+        // convert binary to decimal
         for (int i = binary.Length - 1; i >= 0; i--) 
         {
             if (binary[i] == '1')
@@ -34,6 +35,7 @@
             exponent++;
         }
 
+        // displaying output
         Console.WriteLine("Decimal equivalent: " + decimalValue);
     }
     // end of main method
